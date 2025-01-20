@@ -21,8 +21,8 @@ For more detailed explanations on how the attack works, please refer to the orig
 This repository implements the following defense mechanisms against the EmoRAG attack:
 
 1. **Emoticon Detection**: A model trained to detect malicious texts that contain suspicious emoticons used in backdoor attacks. 🔍  
-   You can access the pre-trained model for emoticon detection on [Hugging Face](https://huggingface.co/qwedxzawsedr/EmoRAG_detect) 🤖.  
-   Additionally, the dataset used for training this model is available on [Hugging Face Datasets](https://huggingface.co/datasets/qwedxzawsedr/emorag_defense) 📊.
+   You can access the pre-trained model for emoticon detection on [Hugging Face](https://huggingface.co/EmoRAG/EmoRAG_detect) 🤖.  
+   Additionally, the dataset used for training this model is available on [Hugging Face Datasets](https://huggingface.co/datasets/EmoRAG/EmoRAG_detect) 📊.
 2. **Query Disinfection**: Sanitizes queries before they enter the RAG system to remove harmful emoticons. 🚿
 3. **Embedding Regularization**: Adjusts the query embeddings to reduce the impact of emoticon perturbations on the retrieval and generation processes. 🔧
 
