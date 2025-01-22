@@ -33,7 +33,6 @@ Start by cloning the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/EmoRAG-Defense.git
-cd EmoRAG-Defense
 ```
 ### 2. Install Dependencies 
 
