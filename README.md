@@ -8,7 +8,6 @@ The **EmoRAG** attack exploits seemingly innocent emoticons (like `(@_@)`) to su
 
 ⚠️ **Please note**: In order to adhere to ethical guidelines, we have not open-sourced our attack code. All the details of the attack methodology are available in the paper. However, we have open-sourced the entire defense code, ensuring that the research community can advance the security of RAG systems.
 
-![EmoRAG Diagram](image/EmoRAG.png) 
 
 ## EmoRAG Attack 🚨
 
